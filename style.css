@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 20px 10%;
+    justify-content: space-between;
+}
+.nav-left h3{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 30px;
+}
+.nav-right .fa-solid{
+    padding-right: 35px;
+}
+.nav-middle{
+    margin-left: 100px;
+}
+.nav-middle li{
+    margin: 0 15px;
+}
+.nav-middle li:first-child a{
+    color: yellow;
+}
+.nav-right button, .button2, .main-content-bot-right button{
+    width: 110px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: rgb(218, 218, 0);
+    color: white;
+    border: none;
+}
+.content p, .main-content-bot-right p{
+    width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 3;
+    height: 75px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    margin-bottom: 40px;
+}
+.content{
+    margin: 70px 0 0 10%;
+}
+.content h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-bottom: 10px; 
+}
+.content .button2{
+    margin-bottom: 30px;
+}
+.content div i{
+    font-size: 50px;
+}
+.main-content-bot{
+    background-color: #263237;
+    display: flex;
+    height: 50vh;
+}
+.main-content-bot img{
+    height: 50vh;
+    width: 120%;
+    margin-left: 50%;
+}
+.main-content-bot-right{
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.main-content-bot-right h2{
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: 'Dancing Script', cursive; Đây là font chữ cho Tiêu đề */
+
+.main-content-top{
+    height: 50vh;
+    background-image: url("./images/anh1.jpg");
+    background-size: 100% 100%;
+}
+.main-content-bot{
+    
+} 
